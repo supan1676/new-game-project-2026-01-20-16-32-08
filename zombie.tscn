@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://by4v7bqg7tox4"]
+
+[ext_resource type="Script" uid="uid://d4celmgu1d8gr" path="res://Zombie.gd" id="1_roy8y"]
+[ext_resource type="PackedScene" uid="uid://rfpi2tcb8vca" path="res://ZombieAssets/minecraft-animated-mutant-zombie/source/Zombie_mutant_geo.gltf" id="2_roy8y"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_roy8y"]
+
+[node name="Zombie" type="CharacterBody3D" unique_id=778946022 groups=["zombie"]]
+script = ExtResource("1_roy8y")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=338661811]
+shape = SubResource("CapsuleShape3D_roy8y")
+
+[node name="blockbench_export" parent="." unique_id=1078560078 instance=ExtResource("2_roy8y")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, -0.6001762, 0)

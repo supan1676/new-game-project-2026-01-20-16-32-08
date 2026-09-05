@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://bbnwcbynupn04"]
+
+[ext_resource type="Script" uid="uid://d204divwlcsla" path="res://Soldier.gd" id="1_ba3fx"]
+[ext_resource type="Script" uid="uid://8pqid0gccowq" path="res://SoldierBrain.gd" id="2_ba3fx"]
+[ext_resource type="PackedScene" uid="uid://ogfqxhewb7uk" path="res://SoldierModel.tscn" id="2_i6re7"]
+[ext_resource type="PackedScene" uid="uid://ci8i0ug58o43k" path="res://SoldierAssets/uploads_files_5230259_TAC_50-Macmillan.fbx" id="3_fpvap"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_i6re7"]
+
+[node name="Soldier" type="CharacterBody3D" unique_id=2036242486]
+script = ExtResource("1_ba3fx")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=373022369]
+shape = SubResource("CapsuleShape3D_i6re7")
+
+[node name="Sensors" type="Node3D" parent="." unique_id=1462252804]
+
+[node name="Ray_Forward" type="RayCast3D" parent="Sensors" unique_id=299709532]
+target_position = Vector3(0, 0, -10)
+debug_shape_custom_color = Color(1, 0, 0, 1)
+
+[node name="Ray_Forward5" type="RayCast3D" parent="Sensors" unique_id=1733739210]
+transform = Transform3D(-0.70710677, 0, -0.70710677, 0, 1, 0, 0.70710677, 0, -0.70710677, 0, 0, 0)
+target_position = Vector3(0, 0, -10)
+debug_shape_custom_color = Color(1, 0, 0, 1)
+
+[node name="Ray_Forward3" type="RayCast3D" parent="Sensors" unique_id=190197425]
+transform = Transform3D(0.70710677, 0, -0.70710677, 0, 1, 0, 0.70710677, 0, 0.70710677, 0, 0, 0)
+target_position = Vector3(0, 0, -10)
+debug_shape_custom_color = Color(1, 0, 0, 1)
+
+[node name="Ray_Forward2" type="RayCast3D" parent="Sensors" unique_id=94720193]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, 0, 0, 0)
+target_position = Vector3(0, 0, -10)
+debug_shape_custom_color = Color(1, 0, 0, 1)
+
+[node name="Ray_Back" type="RayCast3D" parent="Sensors" unique_id=1780821162]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+target_position = Vector3(0, 0, -10)
+debug_shape_custom_color = Color(1, 0, 0, 1)
+
+[node name="Ray_Right" type="RayCast3D" parent="Sensors" unique_id=379805269]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, 0)
+target_position = Vector3(0, 0, -10)
+debug_shape_custom_color = Color(1, 0, 0, 1)
+
+[node name="Ray_Left" type="RayCast3D" parent="Sensors" unique_id=2027979625]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+target_position = Vector3(0, 0, -10)
+debug_shape_custom_color = Color(1, 0, 0, 1)
+
+[node name="Ray_Forward4" type="RayCast3D" parent="Sensors" unique_id=443062684]
+transform = Transform3D(-0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, -0.70710677, 0, 0, 0)
+target_position = Vector3(0, 0, -10)
+debug_shape_custom_color = Color(1, 0, 0, 1)
+
+[node name="AIController3D" type="Node3D" parent="." unique_id=2030095468]
+script = ExtResource("2_ba3fx")
+metadata/_custom_type_script = "uid://ckdtmuiu4jjpv"
+
+[node name="SoldierModel" parent="." unique_id=692915914 instance=ExtResource("2_i6re7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+
+[node name="Gun" parent="SoldierModel" unique_id=343449469 instance=ExtResource("3_fpvap")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6051595, 1, 0)
+
+[node name="Muzzle" type="Marker3D" parent="SoldierModel/Gun" unique_id=1436722965]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.17966354, 0.90836346)

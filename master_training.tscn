@@ -1,0 +1,62 @@
+[gd_scene format=3 uid="uid://cvkpg4dfxyyfd"]
+
+[ext_resource type="PackedScene" uid="uid://bjfok8yve4umq" path="res://training_env.tscn" id="1_sjglf"]
+[ext_resource type="Script" uid="uid://mb8r3x2s1h3x" path="res://addons/godot_rl_agents/sync.gd" id="2_fpv4f"]
+
+[node name="MasterTraining" type="Node3D" unique_id=824295053]
+
+[node name="Sync" type="Node" parent="." unique_id=2147388014]
+script = ExtResource("2_fpv4f")
+speed_up = 20.0
+metadata/_custom_type_script = "uid://mb8r3x2s1h3x"
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=705930401]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 30.58033, 44.169205, 7.623459)
+current = true
+
+[node name="TrainingEnv" parent="." unique_id=1862590937 instance=ExtResource("1_sjglf")]
+
+[node name="TrainingEnv2" parent="." unique_id=590615626 instance=ExtResource("1_sjglf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40, 0, 0)
+
+[node name="TrainingEnv3" parent="." unique_id=168968071 instance=ExtResource("1_sjglf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80, 0, 0)
+
+[node name="TrainingEnv4" parent="." unique_id=2082671669 instance=ExtResource("1_sjglf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120, 0, 0)
+
+[node name="TrainingEnv5" parent="." unique_id=1290204882 instance=ExtResource("1_sjglf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 40)
+
+[node name="TrainingEnv6" parent="." unique_id=1526193392 instance=ExtResource("1_sjglf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40, 0, 40)
+
+[node name="TrainingEnv7" parent="." unique_id=641182876 instance=ExtResource("1_sjglf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80, 0, 40)
+
+[node name="TrainingEnv8" parent="." unique_id=140691872 instance=ExtResource("1_sjglf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120, 0, 40)
+
+[node name="TrainingEnv9" parent="." unique_id=543010438 instance=ExtResource("1_sjglf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 80)
+
+[node name="TrainingEnv10" parent="." unique_id=195270667 instance=ExtResource("1_sjglf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40, 0, 80)
+
+[node name="TrainingEnv11" parent="." unique_id=1866467033 instance=ExtResource("1_sjglf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80, 0, 80)
+
+[node name="TrainingEnv12" parent="." unique_id=1001301059 instance=ExtResource("1_sjglf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120, 0, 80)
+
+[node name="TrainingEnv13" parent="." unique_id=1300745616 instance=ExtResource("1_sjglf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 120)
+
+[node name="TrainingEnv14" parent="." unique_id=1303353420 instance=ExtResource("1_sjglf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40, 0, 120)
+
+[node name="TrainingEnv15" parent="." unique_id=846951822 instance=ExtResource("1_sjglf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80, 0, 120)
+
+[node name="TrainingEnv16" parent="." unique_id=1746266536 instance=ExtResource("1_sjglf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120, 0, 120)

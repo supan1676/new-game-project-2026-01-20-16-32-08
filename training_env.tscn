@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://bjfok8yve4umq"]
+
+[ext_resource type="Script" uid="uid://dgnsvmv30i34u" path="res://TrainingEnv.gd" id="1_ibpfk"]
+[ext_resource type="PackedScene" uid="uid://bbnwcbynupn04" path="res://soldier.tscn" id="2_1xgda"]
+[ext_resource type="PackedScene" uid="uid://by4v7bqg7tox4" path="res://zombie.tscn" id="3_ewtba"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_1xgda"]
+
+[sub_resource type="Sky" id="Sky_ewtba"]
+sky_material = SubResource("ProceduralSkyMaterial_1xgda")
+
+[sub_resource type="Environment" id="Environment_ra86b"]
+background_mode = 2
+sky = SubResource("Sky_ewtba")
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ewtba"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ewtba"]
+size = Vector3(50, 1, 50)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ewtba"]
+
+[node name="TrainingEnv" type="Node3D" unique_id=1862590937]
+script = ExtResource("1_ibpfk")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=303857704]
+transform = Transform3D(0.75, -0.50000006, -0.43301266, -0.4330127, -0.8660254, 0.2500001, -0.5, -7.5710346e-08, -0.8660254, 0, 0, 0)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=2095086770]
+environment = SubResource("Environment_ra86b")
+
+[node name="Floor" type="StaticBody3D" parent="." unique_id=471567777]
+physics_material_override = SubResource("PhysicsMaterial_ewtba")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Floor" unique_id=881893459]
+shape = SubResource("BoxShape3D_ewtba")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Floor" unique_id=896012643]
+transform = Transform3D(50, 0, 0, 0, 1, 0, 0, 0, 50, 0, 0, 0)
+mesh = SubResource("BoxMesh_ewtba")
+
+[node name="Zombie" parent="." unique_id=778946022 instance=ExtResource("3_ewtba")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 1.475, -6.377)
+
+[node name="Soldier" parent="." unique_id=2036242486 instance=ExtResource("2_1xgda")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.22, 2, -7.272)

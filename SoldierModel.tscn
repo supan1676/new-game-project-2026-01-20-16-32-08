@@ -1,0 +1,204 @@
+[gd_scene format=3 uid="uid://ogfqxhewb7uk"]
+
+[ext_resource type="PackedScene" uid="uid://dh7b3dx5kcejm" path="res://SoldierAssets/uploads_files_5230259_Navy.fbx" id="1_n3haq"]
+[ext_resource type="Texture2D" uid="uid://bn321x6n5ks0o" path="res://SoldierAssets/Texture/Shirt/Navy-Shirt-Color.jpg" id="2_8lhoi"]
+[ext_resource type="Texture2D" uid="uid://c02q83verelek" path="res://SoldierAssets/Texture/Shirt/Navy-Shirt-Metaness.jpg" id="3_g06vi"]
+[ext_resource type="Texture2D" uid="uid://djyip3nlly33b" path="res://SoldierAssets/Texture/Shirt/Navy-Shirt-Normal.jpg" id="4_3bagr"]
+[ext_resource type="Texture2D" uid="uid://dy8d8d7n21dit" path="res://SoldierAssets/Texture/Shirt/Navy-Shirt-Roghness.jpg" id="5_5niib"]
+[ext_resource type="Texture2D" uid="uid://3a2w48j0cdno" path="res://SoldierAssets/Texture/Pant/Navy-Pant-Color.jpg" id="6_haf5j"]
+[ext_resource type="Texture2D" uid="uid://rgr5m3jdtmnu" path="res://SoldierAssets/Texture/Pant/Navy-Pant-Metalness.jpg" id="7_t5ihu"]
+[ext_resource type="Texture2D" uid="uid://bicnxt14sxqj" path="res://SoldierAssets/Texture/Pant/Navy-Pant-Normal.jpg" id="8_wo7ow"]
+[ext_resource type="Texture2D" uid="uid://b088t80ikk412" path="res://SoldierAssets/Texture/Pant/Navy-Pant-Roghness.jpg" id="9_5mj66"]
+[ext_resource type="Texture2D" uid="uid://coo7eq5eygu3q" path="res://SoldierAssets/Texture/Gloves/Navy-Gloves-Color.jpg" id="10_chcxo"]
+[ext_resource type="Texture2D" uid="uid://c7igvwavt1ma4" path="res://SoldierAssets/Texture/Gloves/Navy-Gloves-Metalness.jpg" id="11_jp8f4"]
+[ext_resource type="Texture2D" uid="uid://c5dhuaovar4qt" path="res://SoldierAssets/Texture/Gloves/Navy-Gloves-Normal.png" id="12_718v0"]
+[ext_resource type="Texture2D" uid="uid://cefpt545c3f8" path="res://SoldierAssets/Texture/Gloves/Navy-Gloves-Roghness.jpg" id="13_wvcxa"]
+[ext_resource type="Texture2D" uid="uid://batde6m0ul2lw" path="res://SoldierAssets/Texture/Hat/Navy-Hat-Color.jpg" id="14_27mau"]
+[ext_resource type="Texture2D" uid="uid://dr1bent0b4xnt" path="res://SoldierAssets/Texture/Hat/Navy-Hat-Metalness.jpg" id="15_sbdix"]
+[ext_resource type="Texture2D" uid="uid://cmjrcjw8uj4su" path="res://SoldierAssets/Texture/Hat/Navy-Hat-Normal.jpg" id="16_qa8x6"]
+[ext_resource type="Texture2D" uid="uid://pninnbf7slsd" path="res://SoldierAssets/Texture/Hat/Navy-Hat-Roghness.jpg" id="17_iwowd"]
+[ext_resource type="Texture2D" uid="uid://0dfkmdy3eqh7" path="res://SoldierAssets/Texture/Vest/Navy-Vest-Color.jpg" id="18_6xx0x"]
+[ext_resource type="Texture2D" uid="uid://bdxr3pdxuccvw" path="res://SoldierAssets/Texture/Vest/Navy-Vest-AO.png" id="19_6e6ne"]
+[ext_resource type="Texture2D" uid="uid://d230kyucod20y" path="res://SoldierAssets/Texture/Vest/Navy-Vest-Metalness.jpg" id="20_1vph2"]
+[ext_resource type="Texture2D" uid="uid://cm5mgatnrmcom" path="res://SoldierAssets/Texture/Vest/Navy-Vest-Normal.jpg" id="21_1mp0h"]
+[ext_resource type="Texture2D" uid="uid://cec4v6icscv27" path="res://SoldierAssets/Texture/Vest/Navy-Vest-Roghness.jpg" id="22_nljaa"]
+[ext_resource type="Texture2D" uid="uid://d27nrlt8e3fgg" path="res://SoldierAssets/Texture/Glasses/American-Glasses-Color.png" id="23_wmox8"]
+[ext_resource type="Texture2D" uid="uid://cj4on3whys0fy" path="res://SoldierAssets/Texture/Glasses/American-Glasses-AO.png" id="24_lwwwf"]
+[ext_resource type="Texture2D" uid="uid://brjino5qahm7a" path="res://SoldierAssets/Texture/Glasses/American-Glasses-Metalness.png" id="25_w46ac"]
+[ext_resource type="Texture2D" uid="uid://4ctaddb2wibr" path="res://SoldierAssets/Texture/Glasses/American-Glasses-Normal.png" id="26_xb7u5"]
+[ext_resource type="Texture2D" uid="uid://c3ql647bimbmj" path="res://SoldierAssets/Texture/Glasses/American-Glasses-Roghness.png" id="27_vpv0h"]
+[ext_resource type="Texture2D" uid="uid://w22wkgihuw16" path="res://SoldierAssets/Texture/Vestbags/1/Navy-Long-Vestbag-Color.jpg" id="28_r4xou"]
+[ext_resource type="Texture2D" uid="uid://cpkyejkub58jh" path="res://SoldierAssets/Texture/Vestbags/1/Navy-Long-Vestbag-AO.png" id="29_0oq1e"]
+[ext_resource type="Texture2D" uid="uid://bolvdhpqtwpoc" path="res://SoldierAssets/Texture/Vestbags/1/Navy-Long-Vestbag-Metalness.jpg" id="30_tl6tu"]
+[ext_resource type="Texture2D" uid="uid://c0g00j2btoy3v" path="res://SoldierAssets/Texture/Vestbags/1/Navy-Long-Vestbag-Normal.jpg" id="31_v2c7k"]
+[ext_resource type="Texture2D" uid="uid://dg8umcwn42ndj" path="res://SoldierAssets/Texture/Vestbags/1/Navy-Long-Vestbag-Roghness.jpg" id="32_gmyxx"]
+[ext_resource type="Texture2D" uid="uid://h7frhpau15ow" path="res://SoldierAssets/Texture/Vestbags/2/Navy-Small-Vestbag-Color.jpg" id="33_nlxtb"]
+[ext_resource type="Texture2D" uid="uid://crxrpafka5v6x" path="res://SoldierAssets/Texture/Vestbags/2/Navy-Small-Vestbag-AO.png" id="34_pjgxb"]
+[ext_resource type="Texture2D" uid="uid://ddursico6ish0" path="res://SoldierAssets/Texture/Vestbags/2/Navy-Small-Vestbag-Metalness.jpg" id="35_4qsjl"]
+[ext_resource type="Texture2D" uid="uid://cpt63o5caps1t" path="res://SoldierAssets/Texture/Vestbags/2/Navy-Small-Vestbag-Normal.png" id="36_msonx"]
+[ext_resource type="Texture2D" uid="uid://52n7iskcsutd" path="res://SoldierAssets/Texture/Vestbags/2/Navy-Small-Vestbag-Roghness.jpg" id="37_yaach"]
+[ext_resource type="Texture2D" uid="uid://dm7ud2hdwtear" path="res://SoldierAssets/Texture/Head/Head-Color.jpg" id="38_t05da"]
+[ext_resource type="Texture2D" uid="uid://co70dyuimcixa" path="res://SoldierAssets/Texture/Head/Head-Metalness.jpg" id="39_4qwjc"]
+[ext_resource type="Texture2D" uid="uid://docdlar7f2y8o" path="res://SoldierAssets/Texture/Head/Head-Normal.jpg" id="40_boqph"]
+[ext_resource type="Texture2D" uid="uid://dyuwg1dnc6ckw" path="res://SoldierAssets/Texture/Head/Head-Roghness.jpg" id="41_21dto"]
+[ext_resource type="Texture2D" uid="uid://cpy8g43ejjb4o" path="res://SoldierAssets/Texture/Boots/Boots Color.jpg" id="42_uhlkk"]
+[ext_resource type="Texture2D" uid="uid://cwyi1mic7mphk" path="res://SoldierAssets/Texture/Boots/Boots Metalness.jpg" id="43_xhhuc"]
+[ext_resource type="Texture2D" uid="uid://dhulkrkkvdabl" path="res://SoldierAssets/Texture/Boots/Boots Normal2.jpg" id="44_hearx"]
+[ext_resource type="Texture2D" uid="uid://dhmirdmnuaraj" path="res://SoldierAssets/Texture/Boots/Boots Roghness.jpg" id="45_7ehfp"]
+[ext_resource type="Texture2D" uid="uid://chguoge1fi5kr" path="res://SoldierAssets/Texture/Head/Eye_Color.jpg" id="46_pjh1u"]
+[ext_resource type="Texture2D" uid="uid://c8hacwtgn6rws" path="res://SoldierAssets/Texture/Head/Eye_Metalness.jpg" id="47_vu578"]
+[ext_resource type="Texture2D" uid="uid://brg4d36p03km1" path="res://SoldierAssets/Texture/Head/Eye_Normal.jpg" id="48_virmh"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wwcyi"]
+albedo_texture = ExtResource("2_8lhoi")
+metallic = 1.0
+metallic_texture = ExtResource("3_g06vi")
+roughness_texture = ExtResource("5_5niib")
+normal_enabled = true
+normal_texture = ExtResource("4_3bagr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_swqca"]
+albedo_texture = ExtResource("6_haf5j")
+metallic = 1.0
+metallic_texture = ExtResource("7_t5ihu")
+roughness_texture = ExtResource("9_5mj66")
+normal_enabled = true
+normal_texture = ExtResource("8_wo7ow")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iw36o"]
+albedo_texture = ExtResource("10_chcxo")
+metallic = 1.0
+metallic_texture = ExtResource("11_jp8f4")
+roughness_texture = ExtResource("13_wvcxa")
+normal_enabled = true
+normal_texture = ExtResource("12_718v0")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2mpug"]
+albedo_texture = ExtResource("10_chcxo")
+metallic = 1.0
+metallic_texture = ExtResource("11_jp8f4")
+roughness_texture = ExtResource("13_wvcxa")
+normal_enabled = true
+normal_texture = ExtResource("12_718v0")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p6kib"]
+albedo_texture = ExtResource("14_27mau")
+metallic = 1.0
+metallic_texture = ExtResource("15_sbdix")
+roughness_texture = ExtResource("17_iwowd")
+normal_enabled = true
+normal_texture = ExtResource("16_qa8x6")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kxnhw"]
+albedo_texture = ExtResource("18_6xx0x")
+metallic = 1.0
+metallic_texture = ExtResource("20_1vph2")
+roughness_texture = ExtResource("22_nljaa")
+normal_enabled = true
+normal_texture = ExtResource("21_1mp0h")
+ao_enabled = true
+ao_texture = ExtResource("19_6e6ne")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mmt5y"]
+albedo_texture = ExtResource("23_wmox8")
+metallic = 1.0
+metallic_texture = ExtResource("25_w46ac")
+roughness_texture = ExtResource("27_vpv0h")
+normal_enabled = true
+normal_texture = ExtResource("26_xb7u5")
+ao_enabled = true
+ao_texture = ExtResource("24_lwwwf")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_suesn"]
+albedo_texture = ExtResource("28_r4xou")
+metallic = 1.0
+metallic_texture = ExtResource("30_tl6tu")
+roughness_texture = ExtResource("32_gmyxx")
+normal_enabled = true
+normal_texture = ExtResource("31_v2c7k")
+ao_enabled = true
+ao_texture = ExtResource("29_0oq1e")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gx3yh"]
+albedo_texture = ExtResource("33_nlxtb")
+metallic = 1.0
+metallic_texture = ExtResource("35_4qsjl")
+roughness_texture = ExtResource("37_yaach")
+normal_enabled = true
+normal_texture = ExtResource("36_msonx")
+ao_enabled = true
+ao_texture = ExtResource("34_pjgxb")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vgyey"]
+albedo_texture = ExtResource("38_t05da")
+metallic = 1.0
+metallic_texture = ExtResource("39_4qwjc")
+roughness_texture = ExtResource("41_21dto")
+normal_enabled = true
+normal_texture = ExtResource("40_boqph")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bj4yx"]
+albedo_texture = ExtResource("18_6xx0x")
+metallic = 1.0
+metallic_texture = ExtResource("20_1vph2")
+roughness_texture = ExtResource("22_nljaa")
+normal_enabled = true
+normal_texture = ExtResource("21_1mp0h")
+ao_enabled = true
+ao_texture = ExtResource("19_6e6ne")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nvjp3"]
+albedo_texture = ExtResource("42_uhlkk")
+metallic = 1.0
+metallic_texture = ExtResource("43_xhhuc")
+roughness_texture = ExtResource("45_7ehfp")
+normal_enabled = true
+normal_texture = ExtResource("44_hearx")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wytjd"]
+albedo_texture = ExtResource("46_pjh1u")
+metallic = 1.0
+metallic_texture = ExtResource("47_vu578")
+normal_enabled = true
+normal_texture = ExtResource("48_virmh")
+
+[node name="uploads_files_5230259_Navy" unique_id=692915914 instance=ExtResource("1_n3haq")]
+
+[node name="Navy_Shirt_Low_Mesh" parent="." index="0" unique_id=2051989226]
+surface_material_override/0 = SubResource("StandardMaterial3D_wwcyi")
+
+[node name="Group011_Mesh_001" parent="." index="1" unique_id=424610757]
+surface_material_override/0 = SubResource("StandardMaterial3D_swqca")
+
+[node name="Glove_Lowpoly009_Mesh_002" parent="." index="2" unique_id=1959135872]
+surface_material_override/0 = SubResource("StandardMaterial3D_iw36o")
+
+[node name="Glove_Lowpoly010_Mesh_003" parent="." index="3" unique_id=350747366]
+surface_material_override/0 = SubResource("StandardMaterial3D_2mpug")
+
+[node name="Navy_Patrol_Hat_Lowpoly_Retopo_Mesh_004" parent="." index="4" unique_id=1809373825]
+surface_material_override/0 = SubResource("StandardMaterial3D_p6kib")
+
+[node name="Navy_Vest_Low_Mesh_006" parent="." index="5" unique_id=119687973]
+surface_material_override/0 = SubResource("StandardMaterial3D_kxnhw")
+
+[node name="Normal_Glass_Low001_Mesh_007" parent="." index="6" unique_id=1847768584]
+surface_material_override/0 = SubResource("StandardMaterial3D_mmt5y")
+
+[node name="zip_bag_small006_Mesh_009" parent="." index="7" unique_id=1735596854]
+surface_material_override/0 = SubResource("StandardMaterial3D_suesn")
+
+[node name="zip_bag_small007_Mesh_010" parent="." index="8" unique_id=1081628504]
+surface_material_override/0 = SubResource("StandardMaterial3D_gx3yh")
+
+[node name="009_Mesh_011" parent="." index="9" unique_id=698696401]
+surface_material_override/0 = SubResource("StandardMaterial3D_vgyey")
+
+[node name="Object530_Mesh_012" parent="." index="10" unique_id=2104918375]
+surface_material_override/0 = SubResource("StandardMaterial3D_bj4yx")
+
+[node name="Boots_Lowpoly001_Mesh_013" parent="." index="11" unique_id=1031409582]
+surface_material_override/0 = SubResource("StandardMaterial3D_nvjp3")
+
+[node name="eye_001" parent="." index="12" unique_id=1841506340]
+surface_material_override/0 = SubResource("StandardMaterial3D_wytjd")
